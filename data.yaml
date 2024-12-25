@@ -1,0 +1,13 @@
+train: C:/Users/Dell/OneDrive/Desktop/Projects/Apple_detection_using_YOLO/yolo_Model+code/Weeds.v3-augmented_nottrained.yolov8/train
+val: C:/Users/Dell/OneDrive/Desktop/Projects/Apple_detection_using_YOLO/yolo_Model+code/Weeds.v3-augmented_nottrained.yolov8/valid
+test: C:/Users/Dell/OneDrive/Desktop/Projects/Apple_detection_using_YOLO/yolo_Model+code/Weeds.v3-augmented_nottrained.yolov8/test
+
+nc: 1
+names: ['Weeds']
+
+roboflow:
+  workspace: augmented-startups
+  project: weeds-nxe1w
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/augmented-startups/weeds-nxe1w/dataset/3
